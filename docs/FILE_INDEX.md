@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **78 files** from Git-tracked paths and
+This catalog lists **91 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -13,9 +13,9 @@ folder with `python3 tools/refresh_indexes.py`.
 | --- | ---: |
 | Root files | 8 |
 | [.github](../.github/) | 7 |
-| [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 35 |
 | [docs](../docs/) | 1 |
+| [Switchback](../Switchback/) | 27 |
+| [Tilewright](../Tilewright/) | 48 |
 
 ## Root files
 
@@ -45,6 +45,15 @@ folder with `python3 tools/refresh_indexes.py`.
 - [.github/pull_request_template.md](../.github/pull_request_template.md)
 - [.github/workflows/human-game.yml](../.github/workflows/human-game.yml)
 - [.github/workflows/tilewright.yml](../.github/workflows/tilewright.yml)
+
+</details>
+
+## docs
+
+<details>
+<summary>1 files</summary>
+
+- [docs/FILE_INDEX.md](../docs/FILE_INDEX.md)
 
 </details>
 
@@ -86,17 +95,20 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>35 files</summary>
+<summary>48 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
 - [Tilewright/LICENSE](../Tilewright/LICENSE)
 - [Tilewright/README.md](../Tilewright/README.md)
 - [Tilewright/ROADMAP.md](../Tilewright/ROADMAP.md)
+- [Tilewright/adventure.css](../Tilewright/adventure.css)
 - [Tilewright/docs/ARCHITECTURE.md](../Tilewright/docs/ARCHITECTURE.md)
 - [Tilewright/docs/IDEAS.md](../Tilewright/docs/IDEAS.md)
 - [Tilewright/docs/QA.md](../Tilewright/docs/QA.md)
 - [Tilewright/docs/SUBMISSION.md](../Tilewright/docs/SUBMISSION.md)
+- [Tilewright/docs/adventure-mobile.png](../Tilewright/docs/adventure-mobile.png)
+- [Tilewright/docs/adventure.png](../Tilewright/docs/adventure.png)
 - [Tilewright/docs/resize-preview.png](../Tilewright/docs/resize-preview.png)
 - [Tilewright/docs/tilewright-mobile.png](../Tilewright/docs/tilewright-mobile.png)
 - [Tilewright/docs/tilewright.png](../Tilewright/docs/tilewright.png)
@@ -104,10 +116,17 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/icon.svg](../Tilewright/icon.svg)
 - [Tilewright/index.html](../Tilewright/index.html)
 - [Tilewright/package.json](../Tilewright/package.json)
+- [Tilewright/scripts/adventure-browser-checks.mjs](../Tilewright/scripts/adventure-browser-checks.mjs)
 - [Tilewright/scripts/browser-checks.mjs](../Tilewright/scripts/browser-checks.mjs)
 - [Tilewright/scripts/build.mjs](../Tilewright/scripts/build.mjs)
 - [Tilewright/scripts/check.mjs](../Tilewright/scripts/check.mjs)
 - [Tilewright/serve.mjs](../Tilewright/serve.mjs)
+- [Tilewright/src/adventure-levels.mjs](../Tilewright/src/adventure-levels.mjs)
+- [Tilewright/src/adventure-records.mjs](../Tilewright/src/adventure-records.mjs)
+- [Tilewright/src/adventure-render.mjs](../Tilewright/src/adventure-render.mjs)
+- [Tilewright/src/adventure-sound.mjs](../Tilewright/src/adventure-sound.mjs)
+- [Tilewright/src/adventure-ui.mjs](../Tilewright/src/adventure-ui.mjs)
+- [Tilewright/src/adventure.mjs](../Tilewright/src/adventure.mjs)
 - [Tilewright/src/app.mjs](../Tilewright/src/app.mjs)
 - [Tilewright/src/bootstrap.mjs](../Tilewright/src/bootstrap.mjs)
 - [Tilewright/src/icons.mjs](../Tilewright/src/icons.mjs)
@@ -118,19 +137,13 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/storage.mjs](../Tilewright/src/storage.mjs)
 - [Tilewright/src/viewport.mjs](../Tilewright/src/viewport.mjs)
 - [Tilewright/style.css](../Tilewright/style.css)
+- [Tilewright/tests/adventure-records.test.mjs](../Tilewright/tests/adventure-records.test.mjs)
+- [Tilewright/tests/adventure.test.mjs](../Tilewright/tests/adventure.test.mjs)
+- [Tilewright/tests/fixtures/adventure-routes.json](../Tilewright/tests/fixtures/adventure-routes.json)
 - [Tilewright/tests/model.test.mjs](../Tilewright/tests/model.test.mjs)
 - [Tilewright/tests/operations.test.mjs](../Tilewright/tests/operations.test.mjs)
 - [Tilewright/tests/packaging.test.mjs](../Tilewright/tests/packaging.test.mjs)
 - [Tilewright/tests/storage.test.mjs](../Tilewright/tests/storage.test.mjs)
 - [Tilewright/tests/viewport.test.mjs](../Tilewright/tests/viewport.test.mjs)
-
-</details>
-
-## docs
-
-<details>
-<summary>1 files</summary>
-
-- [docs/FILE_INDEX.md](../docs/FILE_INDEX.md)
 
 </details>

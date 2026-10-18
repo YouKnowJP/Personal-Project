@@ -12,7 +12,7 @@ in its own directory with its own README, setup instructions, and development no
 | Project | Description | Built with |
 | --- | --- | --- |
 | [Switchback](Switchback/README.md) | Browser Snake game with phase-switching puzzles, a campaign, and arcade modes. | JavaScript, HTML, CSS, Canvas |
-| [Tilewright](Tilewright/README.md) | Local tile map editor with original artwork, layer tools, anchored resizing, undo/redo, and JSON/PNG exports. | JavaScript, HTML, CSS, Canvas |
+| [Tilewright](Tilewright/README.md) | Tile map editor and Lantern Trails puzzle adventures with exploration, patrols, crate puzzles, and custom map play. | JavaScript, HTML, CSS, Canvas |
 
 Open a project's README for its requirements, run instructions, tests, and roadmap.
 
@@ -30,7 +30,7 @@ dependencies. Start either project from the repository root:
 
 ```sh
 npm --prefix Switchback start
-# Or, for the tile map editor:
+# Or, for the tile map editor and Lantern Trails:
 npm --prefix Tilewright start
 ```
 
@@ -63,7 +63,7 @@ Tilewright has its own [architecture](Tilewright/docs/ARCHITECTURE.md),
 
 ```text
 Switchback/              Switchback source, README, tests, and documentation
-Tilewright/              Tile map editor, sample, tests, and development roadmap
+Tilewright/              Tile map editor, adventure game, tests, and roadmap
 .github/                 CI, dependency updates, and contribution templates
 .editorconfig            Shared editor conventions
 .gitattributes           Text normalization and binary-file handling

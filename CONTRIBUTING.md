@@ -39,7 +39,10 @@ for controls, backup behavior, and import limits.
   `src/render.mjs`, its fictional sample in `src/sample.mjs`, storage in
   `src/storage.mjs`, structural edits in `src/operations.mjs`, and DOM/input
   code in `src/app.mjs`. Preserve versioned map
-  compatibility, import bounds, and immutable history snapshots.
+  compatibility, import bounds, and immutable history snapshots. Keep adventure
+  rules in `src/adventure.mjs`, quests in `src/adventure-levels.mjs`, bests in
+  `src/adventure-records.mjs`, and browser game input in `src/adventure-ui.mjs`.
+  Game runs must not mutate editor documents or map history.
 - Preserve deterministic rules and compatibility with existing saves. Validate
   data read from storage or future import features.
 - Keep dependencies and assets local to the project. Document new third-party
