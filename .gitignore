@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+dist/
+.switchback-build-*/
+.env
+.env.*
+!.env.example
+.playwright-mcp/
+test-results/
