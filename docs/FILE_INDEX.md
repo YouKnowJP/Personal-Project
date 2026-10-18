@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **68 files** from Git-tracked paths and
+This catalog lists **74 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -14,7 +14,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | Root files | 8 |
 | [.github](../.github/) | 7 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 25 |
+| [Tilewright](../Tilewright/) | 31 |
 | [docs](../docs/) | 1 |
 
 ## Root files
@@ -86,7 +86,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>25 files</summary>
+<summary>31 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -96,23 +96,29 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/ARCHITECTURE.md](../Tilewright/docs/ARCHITECTURE.md)
 - [Tilewright/docs/QA.md](../Tilewright/docs/QA.md)
 - [Tilewright/docs/SUBMISSION.md](../Tilewright/docs/SUBMISSION.md)
+- [Tilewright/docs/tilewright-mobile.png](../Tilewright/docs/tilewright-mobile.png)
 - [Tilewright/docs/tilewright.png](../Tilewright/docs/tilewright.png)
 - [Tilewright/examples/willowbend.json](../Tilewright/examples/willowbend.json)
 - [Tilewright/icon.svg](../Tilewright/icon.svg)
 - [Tilewright/index.html](../Tilewright/index.html)
 - [Tilewright/package.json](../Tilewright/package.json)
+- [Tilewright/scripts/browser-checks.mjs](../Tilewright/scripts/browser-checks.mjs)
 - [Tilewright/scripts/build.mjs](../Tilewright/scripts/build.mjs)
 - [Tilewright/scripts/check.mjs](../Tilewright/scripts/check.mjs)
 - [Tilewright/serve.mjs](../Tilewright/serve.mjs)
 - [Tilewright/src/app.mjs](../Tilewright/src/app.mjs)
+- [Tilewright/src/bootstrap.mjs](../Tilewright/src/bootstrap.mjs)
+- [Tilewright/src/icons.mjs](../Tilewright/src/icons.mjs)
 - [Tilewright/src/model.mjs](../Tilewright/src/model.mjs)
 - [Tilewright/src/render.mjs](../Tilewright/src/render.mjs)
 - [Tilewright/src/sample.mjs](../Tilewright/src/sample.mjs)
 - [Tilewright/src/storage.mjs](../Tilewright/src/storage.mjs)
+- [Tilewright/src/viewport.mjs](../Tilewright/src/viewport.mjs)
 - [Tilewright/style.css](../Tilewright/style.css)
 - [Tilewright/tests/model.test.mjs](../Tilewright/tests/model.test.mjs)
 - [Tilewright/tests/packaging.test.mjs](../Tilewright/tests/packaging.test.mjs)
 - [Tilewright/tests/storage.test.mjs](../Tilewright/tests/storage.test.mjs)
+- [Tilewright/tests/viewport.test.mjs](../Tilewright/tests/viewport.test.mjs)
 
 </details>
 
