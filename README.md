@@ -12,7 +12,7 @@ in its own directory with its own README, setup instructions, and development no
 | Project | Description | Built with |
 | --- | --- | --- |
 | [Switchback](Switchback/README.md) | Browser Snake game with phase-switching puzzles, a campaign, and arcade modes. | JavaScript, HTML, CSS, Canvas |
-| [Tilewright](Tilewright/README.md) | Local tile map editor with original artwork, layers, drawing tools, undo/redo, and JSON/PNG exports. | JavaScript, HTML, CSS, Canvas |
+| [Tilewright](Tilewright/README.md) | Local tile map editor with original artwork, layer tools, anchored resizing, undo/redo, and JSON/PNG exports. | JavaScript, HTML, CSS, Canvas |
 
 Open a project's README for its requirements, run instructions, tests, and roadmap.
 

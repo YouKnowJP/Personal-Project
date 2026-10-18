@@ -37,7 +37,8 @@ for controls, backup behavior, and import limits.
   `src/levels.mjs`, persistence in `src/storage.mjs`, and browser UI in `src/app.mjs`.
 - Keep Tilewright's document/edit rules in `src/model.mjs`, artwork in
   `src/render.mjs`, its fictional sample in `src/sample.mjs`, storage in
-  `src/storage.mjs`, and DOM/input code in `src/app.mjs`. Preserve versioned map
+  `src/storage.mjs`, structural edits in `src/operations.mjs`, and DOM/input
+  code in `src/app.mjs`. Preserve versioned map
   compatibility, import bounds, and immutable history snapshots.
 - Preserve deterministic rules and compatibility with existing saves. Validate
   data read from storage or future import features.

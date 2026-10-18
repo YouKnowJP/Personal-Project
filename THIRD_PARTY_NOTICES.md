@@ -14,7 +14,7 @@ original interface assets. No additional third-party asset licenses are needed
 for the current static package.
 
 Tilewright includes original JavaScript, HTML, CSS, SVG branding, Canvas-drawn
-pixel tiles, a fictional sample map, and a screenshot of its interface. It
+pixel tiles, a fictional sample map, and screenshots of its interface. It
 bundles no external artwork, fonts, datasets, audio, or third-party runtime
 packages. Palette previews and exports are drawn from the same local source.
 Its project code and original assets use the root MIT license, also included
