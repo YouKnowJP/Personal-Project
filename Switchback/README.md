@@ -106,6 +106,14 @@ can differ when players take different routes.
 
 ## Check and package
 
+Run the complete verification pipeline:
+
+```sh
+npm run verify
+```
+
+Or run each step separately:
+
 ```sh
 npm run check
 npm test
@@ -114,8 +122,11 @@ npm run build
 
 The **42 tests** cover game rules, all six executable completion routes,
 progression, medals, storage migration/corruption, and static release integrity.
-GitHub Actions checks syntax, runs tests, and builds the static release.
+GitHub Actions checks syntax, runs tests, and builds the static release on
+Node.js 22, 24, and 26 on Linux, plus Node.js 24 on Windows and macOS.
 See [QA notes](docs/QA.md) for browser coverage and limits.
+See the repository's [contribution guide](../CONTRIBUTING.md) for development
+conventions and [security policy](../SECURITY.md) for sensitive reports.
 
 The build writes only public game assets and the MIT license into `dist/`.
 Serve that directory with a static host or an HTTP server. The package excludes

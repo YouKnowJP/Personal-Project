@@ -11,8 +11,10 @@ npm run build
 ```
 
 The suite contains **42 tests**. Syntax checks run on the game modules, builder,
-and development server. GitHub Actions runs checks, tests, and a build on Node.js
-22 on Ubuntu; local verification uses Node.js 26.0.0.
+and development server. GitHub Actions is configured to run checks, tests, and a
+build on Node.js 22, 24, and 26 on Linux, plus Node.js 24 on Windows and macOS.
+Local verification uses Node.js 26.0.0; configured CI coverage does not imply
+additional browser verification.
 
 Coverage includes safe turn buffering, opposite-direction rejection, matching
 energy, growth, gates, phase shifts, collisions, moving into a vacating tail,

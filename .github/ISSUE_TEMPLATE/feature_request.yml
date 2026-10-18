@@ -1,0 +1,39 @@
+name: Feature request
+description: Propose an improvement to a project or the repository.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues and the project's roadmap before proposing a feature.
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      placeholder: Switchback or repository
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Who would use this, and what are they trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the desired behavior and how someone would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and tradeoffs
+      description: Include simpler options or workarounds you have considered.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Completion criteria
+      description: What observable behavior would demonstrate that this is complete?

@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible problem in a project or the repository.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before filing a report. For vulnerabilities or
+        sensitive information, follow [the security policy](https://github.com/YouKnowJP/Personal-Project/blob/main/SECURITY.md).
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      placeholder: Switchback, repository documentation, or another project
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: Switchback v0.2.2 or a commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include relevant mode, stage, pace, seed, and inputs for game bugs.
+      placeholder: |
+        1. Start the project with ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Attach screenshots or relevant console output, with private information removed.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser and version, Node.js version if relevant, and device or viewport size.
+    validations:
+      required: true
