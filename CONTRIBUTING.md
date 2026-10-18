@@ -42,7 +42,9 @@ for controls, backup behavior, and import limits.
   compatibility, import bounds, and immutable history snapshots. Keep adventure
   rules in `src/adventure.mjs`, quests in `src/adventure-levels.mjs`, bests in
   `src/adventure-records.mjs`, and browser game input in `src/adventure-ui.mjs`.
-  Game runs must not mutate editor documents or map history.
+  Keep movement learning in `src/adventure-brain.mjs` and committed enemy plans
+  in `src/adventure-tactics.mjs`. Game runs must not mutate editor documents or
+  map history. Validate old progress and map compatibility when extending missions.
 - Preserve deterministic rules and compatibility with existing saves. Validate
   data read from storage or future import features.
 - Keep dependencies and assets local to the project. Document new third-party

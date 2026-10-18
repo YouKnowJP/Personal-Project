@@ -14,7 +14,7 @@ original interface assets. No additional third-party asset licenses are needed
 for the current static package.
 
 Tilewright includes original JavaScript, HTML, CSS, SVG branding, Canvas-drawn
-pixel tiles and adventure sprites, fictional sample/quest maps, locally
+pixel tiles and adventure sprites, original dialogue, fictional sample/quest maps, locally
 synthesized sounds, and screenshots of its interface. It bundles no external
 artwork, fonts, datasets, downloaded audio, or third-party runtime
 packages. Palette previews and exports are drawn from the same local source.

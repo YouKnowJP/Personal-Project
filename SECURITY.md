@@ -48,8 +48,10 @@ imports are bounded to 1 MB, 64 × 64 cells, six layers, and known tile IDs;
 unknown metadata is discarded. Imported text is rendered as text, not HTML.
 Adventure progress is stored separately from map data, with bounded and
 validated personal bests. These browser-editable scores are not trusted
-competition records. Custom expeditions use a validated map snapshot and never
-change editor saves. The local server binds to `127.0.0.1` and serves an explicit
+competition records. A separate bounded movement profile contains only local game-action counts,
+transitions, and the last movement action. It can be reset independently and is
+never transmitted. Dialogue uses authored text nodes and one-time choices.
+Custom expeditions use a validated map snapshot and never change editor saves. The local server binds to `127.0.0.1` and serves an explicit
 public-file list.
 
 Use your own non-sensitive artwork, export JSON backups, and avoid personal or
