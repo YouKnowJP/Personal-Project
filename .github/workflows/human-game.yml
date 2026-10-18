@@ -1,9 +1,9 @@
 name: Human Game
 on:
   push:
-    paths: ['Human Game/**', '.github/workflows/human-game.yml']
+    paths: ['Switchback/**', '.github/workflows/human-game.yml']
   pull_request:
-    paths: ['Human Game/**', '.github/workflows/human-game.yml']
+    paths: ['Switchback/**', '.github/workflows/human-game.yml']
 permissions:
   contents: read
 jobs:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Human Game
+        working-directory: Switchback
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:

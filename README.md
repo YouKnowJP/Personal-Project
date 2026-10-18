@@ -1,16 +1,16 @@
 # Personal-Project
 
-## Switchback — Human Game
+## Switchback
 
 **Six circuits. Endless detours.** Switchback is a browser Snake game with
 phase-matching gates, six authored campaign stages, playable lessons, saved route
 medals, and three arcade modes. It supports keyboard, touch buttons, and swipes,
 with optional synthesized sound and high contrast.
 
-The game lives in [Human Game](Human%20Game/README.md). It uses vanilla JavaScript,
+The game lives in [Switchback](Switchback/README.md). It uses vanilla JavaScript,
 Canvas 2D, HTML, and CSS, with no runtime packages, accounts, or backend.
 
-![Switchback campaign](Human%20Game/docs/switchback.png)
+![Switchback campaign](Switchback/docs/switchback.png)
 
 ### Run locally
 
@@ -18,7 +18,7 @@ Node.js 22+; no dependency installation is needed.
 
 ```sh
 git clone https://github.com/YouKnowJP/Personal-Project.git
-cd 'Personal-Project/Human Game'
+cd 'Personal-Project/Switchback'
 npm start
 ```
 
@@ -29,7 +29,7 @@ extract it, and serve the game folder with `python3 -m http.server 4173 --bind 1
 
 ### Develop
 
-From `Human Game`:
+From `Switchback`:
 
 ```sh
 npm run check
@@ -40,8 +40,8 @@ npm run build
 The build writes a standalone static game to `dist/`. GitHub Actions checks the
 source, runs 42 tests, and builds the package.
 
-[Controls and rules](Human%20Game/README.md) · [Roadmap](Human%20Game/ROADMAP.md) ·
-[Architecture](Human%20Game/docs/ARCHITECTURE.md) · [QA record](Human%20Game/docs/QA.md) ·
-[Releasing](Human%20Game/docs/RELEASING.md) · [Source history](Human%20Game/docs/PROVENANCE.md)
+[Controls and rules](Switchback/README.md) · [Roadmap](Switchback/ROADMAP.md) ·
+[Architecture](Switchback/docs/ARCHITECTURE.md) · [QA record](Switchback/docs/QA.md) ·
+[Releasing](Switchback/docs/RELEASING.md) · [Source history](Switchback/docs/PROVENANCE.md)
 
 MIT; see [LICENSE](LICENSE) and the [asset notice](THIRD_PARTY_NOTICES.md).

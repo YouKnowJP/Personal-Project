@@ -9,6 +9,6 @@ Node.js serves the development files and runs tests. It is installed separately
 and is not included in downloadable game packages. GitHub Actions used by CI
 retain their own licenses.
 
-The root MIT license and `Human Game/LICENSE` cover the game’s project code and
+The root MIT license and `Switchback/LICENSE` cover the game’s project code and
 original interface assets. No additional third-party asset licenses are needed
 for the current static package.

@@ -1,6 +1,6 @@
 # Release instructions
 
-Run these from `Human Game` with Node.js 22+:
+Run these from `Switchback` with Node.js 22+:
 
 ```sh
 npm run check
@@ -31,8 +31,8 @@ browsers and devices in [QA.md](QA.md).
 3. Inspect the asset list and quick-start instructions in `dist/RELEASE.md`.
 4. Archive only the contents of `dist/`, keeping `LICENSE` and `RELEASE.md`.
 5. Generate a SHA-256 checksum for the archive.
-6. Tag the tested commit as `switchback-v<version>`, matching the versioned source
-   link generated in `RELEASE.md`. Attach the archive and checksum to that release.
+6. Tag the tested commit as `switchback-v<version>` and link that exact commit
+   in the release notes. Attach the archive and checksum to that release.
 7. Include player-facing changes, launch instructions, and verification limits
    in the release notes. Download the published archive and verify its checksum.
 

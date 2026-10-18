@@ -24,6 +24,6 @@ snapshot have the same `Human Game` Git tree:
 | [4f8f661](https://github.com/YouKnowJP/Machine-Learning-Project/commit/4f8f661709069d16b407dff759fd77be5612e9c6) | [a21e5d4](https://github.com/YouKnowJP/Personal-Project/commit/a21e5d47057a28b656648ce543246532f6298c23) |
 
 The migration commit then updates repository links, release metadata, the README,
-license placement, and CI. The game remains in `Human Game`; its simulation and
-save format are unchanged. Other projects and assets from the original repository
+license placement, and CI. The game was imported under `Human Game` and now lives in `Switchback`. Its
+simulation and save format are unchanged. Other projects and assets from the original repository
 were not imported. Earlier game documentation remains in the imported history.

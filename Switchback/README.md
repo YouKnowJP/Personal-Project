@@ -18,7 +18,7 @@ downloads. Gameplay, progress, and sound synthesis run in the browser.
 Install Node.js 22 or newer. From the repository root:
 
 ```sh
-cd 'Human Game'
+cd Switchback
 npm start
 ```
 
