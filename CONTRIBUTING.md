@@ -22,12 +22,23 @@ Switchback has no npm dependencies, so there is no install step or lockfile.
 If a project gains dependencies, commit its package manifest and lockfile, use
 the corresponding clean-install command in CI, and document the setup change.
 
+## Set up Tilewright
+
+Use Node.js 22 or newer (`Tilewright/.nvmrc` selects 22), then start the editor
+with `npm --prefix Tilewright start`. Open <http://127.0.0.1:4174>.
+There are no npm packages to install. See the [project guide](Tilewright/README.md)
+for controls, backup behavior, and import limits.
+
 ## Coding conventions
 
 - Follow `.editorconfig` and the surrounding code: UTF-8, LF line endings, two
   spaces, JavaScript ES modules, and single-quoted strings.
 - Keep Switchback's simulation in `src/engine.mjs`, authored stage data in
   `src/levels.mjs`, persistence in `src/storage.mjs`, and browser UI in `src/app.mjs`.
+- Keep Tilewright's document/edit rules in `src/model.mjs`, artwork in
+  `src/render.mjs`, its fictional sample in `src/sample.mjs`, storage in
+  `src/storage.mjs`, and DOM/input code in `src/app.mjs`. Preserve versioned map
+  compatibility, import bounds, and immutable history snapshots.
 - Preserve deterministic rules and compatibility with existing saves. Validate
   data read from storage or future import features.
 - Keep dependencies and assets local to the project. Document new third-party
@@ -42,6 +53,7 @@ From the repository root:
 
 ```sh
 npm --prefix Switchback run verify
+npm --prefix Tilewright run verify
 git diff --check
 ```
 
@@ -56,6 +68,8 @@ npm run build
 
 Add focused regression tests for changes to rules, saves, or packaging. Tests
 live in `Switchback/tests/` and use `node:test` with `node:assert/strict`.
+Tilewright tests use the same built-in runner in `Tilewright/tests/`; follow
+its [QA checklist](Tilewright/docs/QA.md) when changing editor behavior.
 For UI changes, also exercise the affected controls in a browser and describe
 the browser, viewport/device, and observed result in the pull request. Follow
 the [QA checklist](Switchback/docs/QA.md); automated rule tests do not replace

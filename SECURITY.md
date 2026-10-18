@@ -39,3 +39,17 @@ Report cases such as unintended file exposure by the development server,
 script injection, or unexpected transmission of local data. Ordinary gameplay
 bugs belong in the public bug-report template. Asset and dependency details are
 listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Tilewright's security boundary
+
+Tilewright edits fictional maps in the browser and saves one document in
+localStorage. It has no server-side accounts or remote data processing. Map
+imports are bounded to 1 MB, 64 × 64 cells, six layers, and known tile IDs;
+unknown metadata is discarded. Imported text is rendered as text, not HTML.
+The local server binds to `127.0.0.1` and serves an explicit public-file list.
+
+Use your own non-sensitive artwork, export JSON backups, and avoid personal or
+regulated data. Report unintended file exposure, executable imported content,
+or unexpected transmission through the private process above. See
+[Tilewright's architecture](Tilewright/docs/ARCHITECTURE.md) for format and
+storage limits.

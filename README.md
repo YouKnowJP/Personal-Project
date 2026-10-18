@@ -1,6 +1,7 @@
 # Personal-Project
 
 [![Switchback CI](https://github.com/YouKnowJP/Personal-Project/actions/workflows/human-game.yml/badge.svg)](https://github.com/YouKnowJP/Personal-Project/actions/workflows/human-game.yml)
+[![Tilewright CI](https://github.com/YouKnowJP/Personal-Project/actions/workflows/tilewright.yml/badge.svg)](https://github.com/YouKnowJP/Personal-Project/actions/workflows/tilewright.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A collection of my personal software projects and experiments. Each project lives
@@ -11,6 +12,7 @@ in its own directory with its own README, setup instructions, and development no
 | Project | Description | Built with |
 | --- | --- | --- |
 | [Switchback](Switchback/README.md) | Browser Snake game with phase-switching puzzles, a campaign, and arcade modes. | JavaScript, HTML, CSS, Canvas |
+| [Tilewright](Tilewright/README.md) | Local tile map editor with original artwork, layers, drawing tools, undo/redo, and JSON/PNG exports. | JavaScript, HTML, CSS, Canvas |
 
 Open a project's README for its requirements, run instructions, tests, and roadmap.
 
@@ -23,38 +25,45 @@ git clone https://github.com/YouKnowJP/Personal-Project.git
 cd Personal-Project
 ```
 
-Switchback currently requires **Node.js 22 or newer** for development. Start it
-from the repository root:
+Both projects require **Node.js 22 or newer** for development and have no npm
+dependencies. Start either project from the repository root:
 
 ```sh
 npm --prefix Switchback start
+# Or, for the tile map editor:
+npm --prefix Tilewright start
 ```
 
-Open [http://127.0.0.1:4173](http://127.0.0.1:4173). No package installation or
-build is required. Stop the server with Ctrl+C. See the
-[Switchback README](Switchback/README.md) for gameplay, controls, and other ways
-to serve it.
+Open Switchback at [http://127.0.0.1:4173](http://127.0.0.1:4173), or Tilewright at
+[http://127.0.0.1:4174](http://127.0.0.1:4174). No package installation or build
+is required. Stop a server with Ctrl+C. Each project's README explains its
+controls, local storage, and static distribution.
 
 ## Development and verification
 
-From the repository root, run all Switchback checks and create its static build:
+From the repository root, verify each project and create its static build:
 
 ```sh
 npm --prefix Switchback run verify
+npm --prefix Tilewright run verify
 ```
 
 This checks JavaScript syntax, runs the automated tests, and packages public
-assets into `Switchback/dist/`. The build output is ignored by Git. CI runs these
+assets into each project's `dist/`. The build output is ignored by Git. CI runs these
 checks on Node.js 22, 24, and 26 on Linux, plus Node.js 24 on Windows and macOS.
 
 For project details, see Switchback's [architecture](Switchback/docs/ARCHITECTURE.md),
 [QA record](Switchback/docs/QA.md), [roadmap](Switchback/ROADMAP.md),
 [changelog](Switchback/CHANGELOG.md), and [release guide](Switchback/docs/RELEASING.md).
+Tilewright has its own [architecture](Tilewright/docs/ARCHITECTURE.md),
+[QA record](Tilewright/docs/QA.md), [roadmap](Tilewright/ROADMAP.md), and
+[project status and submission notes](Tilewright/docs/SUBMISSION.md).
 
 ## Repository organization
 
 ```text
 Switchback/              Switchback source, README, tests, and documentation
+Tilewright/              Tile map editor, sample, tests, and development roadmap
 .github/                 CI, dependency updates, and contribution templates
 .editorconfig            Shared editor conventions
 .gitattributes           Text normalization and binary-file handling
@@ -80,6 +89,6 @@ for reproducible bugs and feature requests. For sensitive reports, follow
 ## License
 
 This repository is licensed under the [MIT License](LICENSE), unless a project
-explicitly documents a different license. Switchback includes a matching license
-in its distributable package. See the
+explicitly documents a different license. Both projects include matching licenses
+in their distributable packages. See the
 [asset and dependency notices](THIRD_PARTY_NOTICES.md) for attribution details.
