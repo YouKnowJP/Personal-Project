@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **189 files** from Git-tracked paths and
+This catalog lists **205 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 146 |
+| [Tilewright](../Tilewright/) | 162 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>146 files</summary>
+<summary>162 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -114,6 +114,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/QA.md](../Tilewright/docs/QA.md)
 - [Tilewright/docs/RESEARCH.md](../Tilewright/docs/RESEARCH.md)
 - [Tilewright/docs/SUBMISSION.md](../Tilewright/docs/SUBMISSION.md)
+- [Tilewright/docs/WORKSHOP.md](../Tilewright/docs/WORKSHOP.md)
 - [Tilewright/docs/adventure-journal.png](../Tilewright/docs/adventure-journal.png)
 - [Tilewright/docs/adventure-mobile.png](../Tilewright/docs/adventure-mobile.png)
 - [Tilewright/docs/adventure-modes.png](../Tilewright/docs/adventure-modes.png)
@@ -151,6 +152,9 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/title-mobile.png](../Tilewright/docs/title-mobile.png)
 - [Tilewright/docs/watcher-mobile.png](../Tilewright/docs/watcher-mobile.png)
 - [Tilewright/docs/watcher.png](../Tilewright/docs/watcher.png)
+- [Tilewright/docs/workshop-designer.png](../Tilewright/docs/workshop-designer.png)
+- [Tilewright/docs/workshop-mobile.png](../Tilewright/docs/workshop-mobile.png)
+- [Tilewright/docs/workshop-shelf.png](../Tilewright/docs/workshop-shelf.png)
 - [Tilewright/examples/willowbend.json](../Tilewright/examples/willowbend.json)
 - [Tilewright/front.css](../Tilewright/front.css)
 - [Tilewright/game-theme.css](../Tilewright/game-theme.css)
@@ -177,6 +181,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/solve-sluices.mjs](../Tilewright/scripts/solve-sluices.mjs)
 - [Tilewright/scripts/story-driver.mjs](../Tilewright/scripts/story-driver.mjs)
 - [Tilewright/scripts/ui-driver.mjs](../Tilewright/scripts/ui-driver.mjs)
+- [Tilewright/scripts/workshop-browser-checks.mjs](../Tilewright/scripts/workshop-browser-checks.mjs)
 - [Tilewright/serve.mjs](../Tilewright/serve.mjs)
 - [Tilewright/src/adventure-art.mjs](../Tilewright/src/adventure-art.mjs)
 - [Tilewright/src/adventure-atlas-levels.mjs](../Tilewright/src/adventure-atlas-levels.mjs)
@@ -211,6 +216,14 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/sample.mjs](../Tilewright/src/sample.mjs)
 - [Tilewright/src/storage.mjs](../Tilewright/src/storage.mjs)
 - [Tilewright/src/viewport.mjs](../Tilewright/src/viewport.mjs)
+- [Tilewright/src/workshop-art.mjs](../Tilewright/src/workshop-art.mjs)
+- [Tilewright/src/workshop-clears.mjs](../Tilewright/src/workshop-clears.mjs)
+- [Tilewright/src/workshop-designer.mjs](../Tilewright/src/workshop-designer.mjs)
+- [Tilewright/src/workshop-library.mjs](../Tilewright/src/workshop-library.mjs)
+- [Tilewright/src/workshop-model.mjs](../Tilewright/src/workshop-model.mjs)
+- [Tilewright/src/workshop-sharing.mjs](../Tilewright/src/workshop-sharing.mjs)
+- [Tilewright/src/workshop-ui.mjs](../Tilewright/src/workshop-ui.mjs)
+- [Tilewright/src/workshop-worlds.mjs](../Tilewright/src/workshop-worlds.mjs)
 - [Tilewright/style.css](../Tilewright/style.css)
 - [Tilewright/tests/adventure-journal.test.mjs](../Tilewright/tests/adventure-journal.test.mjs)
 - [Tilewright/tests/adventure-mechanisms.test.mjs](../Tilewright/tests/adventure-mechanisms.test.mjs)
@@ -235,6 +248,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/fixtures/pre-guild-checkpoints.json](../Tilewright/tests/fixtures/pre-guild-checkpoints.json)
 - [Tilewright/tests/fixtures/pre-horizon-campaign.json](../Tilewright/tests/fixtures/pre-horizon-campaign.json)
 - [Tilewright/tests/fixtures/sluice-routes.json](../Tilewright/tests/fixtures/sluice-routes.json)
+- [Tilewright/tests/fixtures/workshop-alternates.json](../Tilewright/tests/fixtures/workshop-alternates.json)
 - [Tilewright/tests/guild.test.mjs](../Tilewright/tests/guild.test.mjs)
 - [Tilewright/tests/horizon-runs.test.mjs](../Tilewright/tests/horizon-runs.test.mjs)
 - [Tilewright/tests/model.test.mjs](../Tilewright/tests/model.test.mjs)
@@ -243,5 +257,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/sluice-runs.test.mjs](../Tilewright/tests/sluice-runs.test.mjs)
 - [Tilewright/tests/storage.test.mjs](../Tilewright/tests/storage.test.mjs)
 - [Tilewright/tests/viewport.test.mjs](../Tilewright/tests/viewport.test.mjs)
+- [Tilewright/tests/workshop.test.mjs](../Tilewright/tests/workshop.test.mjs)
+- [Tilewright/workshop.css](../Tilewright/workshop.css)
 
 </details>

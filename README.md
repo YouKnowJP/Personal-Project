@@ -12,7 +12,7 @@ in its own directory with its own README, setup instructions, and development no
 | Project | Description | Built with |
 | --- | --- | --- |
 | [Switchback](Switchback/README.md) | Browser Snake game with phase-switching puzzles, a campaign, and arcade modes. | JavaScript, HTML, CSS, Canvas |
-| [Tilewright](Tilewright/README.md) | Tile map editor and Lantern Trails puzzle adventures with twenty-four story missions, eight Guild jobs, three specialists including a lantern double, interactive choices, waystones, branching expeditions, adaptive hunters, and custom map play. | JavaScript, HTML, CSS, Canvas |
+| [Tilewright](Tilewright/README.md) | Tile map editor and Lantern Trails puzzle adventures with twenty-four story missions, eight Guild jobs, three specialists including a lantern double, interactive choices, waystones, branching expeditions, adaptive hunters, and an Adventure Workshop for creating, playtesting, and sharing maps and stories. | JavaScript, HTML, CSS, Canvas |
 
 Open a project's README for its requirements, run instructions, tests, and roadmap.
 
@@ -42,7 +42,9 @@ controls, local storage, and static distribution.
 Tilewright's [Lantern Trails game](http://127.0.0.1:4174/#play) opens on a title
 screen with mode previews, a field guide, and options before a mission begins.
 Its Adventure Journal tracks chapter mastery, specialist honors, expedition
-badges, and suggested goals for another run.
+badges, and suggested goals for another run. The Adventure Workshop adds three
+featured worlds and tools to build puzzles, dialogue, patrols, and quests, then
+share playable adventures using files or codes.
 
 ## Development and verification
 
