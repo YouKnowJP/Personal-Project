@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **167 files** from Git-tracked paths and
+This catalog lists **170 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 124 |
+| [Tilewright](../Tilewright/) | 127 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>124 files</summary>
+<summary>127 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -122,6 +122,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/clockwork-desktop.png](../Tilewright/docs/clockwork-desktop.png)
 - [Tilewright/docs/clockwork-mobile.png](../Tilewright/docs/clockwork-mobile.png)
 - [Tilewright/docs/dialogue-mobile.png](../Tilewright/docs/dialogue-mobile.png)
+- [Tilewright/docs/echo-bridge-desktop.png](../Tilewright/docs/echo-bridge-desktop.png)
+- [Tilewright/docs/echo-bridge-mobile.png](../Tilewright/docs/echo-bridge-mobile.png)
 - [Tilewright/docs/expedition-camp-mobile.png](../Tilewright/docs/expedition-camp-mobile.png)
 - [Tilewright/docs/expedition-hub.png](../Tilewright/docs/expedition-hub.png)
 - [Tilewright/docs/expedition.png](../Tilewright/docs/expedition.png)
@@ -199,6 +201,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/adventure-tactics.test.mjs](../Tilewright/tests/adventure-tactics.test.mjs)
 - [Tilewright/tests/adventure.test.mjs](../Tilewright/tests/adventure.test.mjs)
 - [Tilewright/tests/atlas-runs.test.mjs](../Tilewright/tests/atlas-runs.test.mjs)
+- [Tilewright/tests/echo.test.mjs](../Tilewright/tests/echo.test.mjs)
 - [Tilewright/tests/expedition-runs.test.mjs](../Tilewright/tests/expedition-runs.test.mjs)
 - [Tilewright/tests/expeditions.test.mjs](../Tilewright/tests/expeditions.test.mjs)
 - [Tilewright/tests/fixtures/adventure-routes.json](../Tilewright/tests/fixtures/adventure-routes.json)
