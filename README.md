@@ -41,6 +41,8 @@ controls, local storage, and static distribution.
 
 Tilewright's [Lantern Trails game](http://127.0.0.1:4174/#play) opens on a title
 screen with mode previews, a field guide, and options before a mission begins.
+Its Adventure Journal tracks chapter mastery, specialist honors, expedition
+badges, and suggested goals for another run.
 
 ## Development and verification
 
