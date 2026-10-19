@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **156 files** from Git-tracked paths and
+This catalog lists **167 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 113 |
+| [Tilewright](../Tilewright/) | 124 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>113 files</summary>
+<summary>124 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -108,6 +108,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/DESIGN_NOTES.md](../Tilewright/docs/DESIGN_NOTES.md)
 - [Tilewright/docs/EXPEDITIONS.md](../Tilewright/docs/EXPEDITIONS.md)
 - [Tilewright/docs/GUILD.md](../Tilewright/docs/GUILD.md)
+- [Tilewright/docs/HORIZONS.md](../Tilewright/docs/HORIZONS.md)
 - [Tilewright/docs/IDEAS.md](../Tilewright/docs/IDEAS.md)
 - [Tilewright/docs/MISSIONS.md](../Tilewright/docs/MISSIONS.md)
 - [Tilewright/docs/QA.md](../Tilewright/docs/QA.md)
@@ -118,6 +119,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/atlas-chapters.png](../Tilewright/docs/atlas-chapters.png)
 - [Tilewright/docs/aurora-finale.png](../Tilewright/docs/aurora-finale.png)
 - [Tilewright/docs/aurora-mobile.png](../Tilewright/docs/aurora-mobile.png)
+- [Tilewright/docs/clockwork-desktop.png](../Tilewright/docs/clockwork-desktop.png)
+- [Tilewright/docs/clockwork-mobile.png](../Tilewright/docs/clockwork-mobile.png)
 - [Tilewright/docs/dialogue-mobile.png](../Tilewright/docs/dialogue-mobile.png)
 - [Tilewright/docs/expedition-camp-mobile.png](../Tilewright/docs/expedition-camp-mobile.png)
 - [Tilewright/docs/expedition-hub.png](../Tilewright/docs/expedition-hub.png)
@@ -127,6 +130,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/guild-board.png](../Tilewright/docs/guild-board.png)
 - [Tilewright/docs/guild-mobile.png](../Tilewright/docs/guild-mobile.png)
 - [Tilewright/docs/guild-tools-desktop.png](../Tilewright/docs/guild-tools-desktop.png)
+- [Tilewright/docs/horizon-chapters.png](../Tilewright/docs/horizon-chapters.png)
+- [Tilewright/docs/lighthouse-desktop.png](../Tilewright/docs/lighthouse-desktop.png)
 - [Tilewright/docs/resize-preview.png](../Tilewright/docs/resize-preview.png)
 - [Tilewright/docs/sluice-finale.png](../Tilewright/docs/sluice-finale.png)
 - [Tilewright/docs/sluice-mobile.png](../Tilewright/docs/sluice-mobile.png)
@@ -146,11 +151,13 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/contract-browser-checks.mjs](../Tilewright/scripts/contract-browser-checks.mjs)
 - [Tilewright/scripts/expedition-browser-checks.mjs](../Tilewright/scripts/expedition-browser-checks.mjs)
 - [Tilewright/scripts/guild-browser-checks.mjs](../Tilewright/scripts/guild-browser-checks.mjs)
+- [Tilewright/scripts/horizon-browser-checks.mjs](../Tilewright/scripts/horizon-browser-checks.mjs)
 - [Tilewright/scripts/layout-browser-checks.mjs](../Tilewright/scripts/layout-browser-checks.mjs)
 - [Tilewright/scripts/sluice-browser-checks.mjs](../Tilewright/scripts/sluice-browser-checks.mjs)
 - [Tilewright/scripts/solve-atlas.mjs](../Tilewright/scripts/solve-atlas.mjs)
 - [Tilewright/scripts/solve-expeditions.mjs](../Tilewright/scripts/solve-expeditions.mjs)
 - [Tilewright/scripts/solve-guild.mjs](../Tilewright/scripts/solve-guild.mjs)
+- [Tilewright/scripts/solve-horizon.mjs](../Tilewright/scripts/solve-horizon.mjs)
 - [Tilewright/scripts/solve-sluices.mjs](../Tilewright/scripts/solve-sluices.mjs)
 - [Tilewright/scripts/story-driver.mjs](../Tilewright/scripts/story-driver.mjs)
 - [Tilewright/scripts/ui-driver.mjs](../Tilewright/scripts/ui-driver.mjs)
@@ -161,6 +168,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/adventure-expedition-ui.mjs](../Tilewright/src/adventure-expedition-ui.mjs)
 - [Tilewright/src/adventure-generator.mjs](../Tilewright/src/adventure-generator.mjs)
 - [Tilewright/src/adventure-guild.mjs](../Tilewright/src/adventure-guild.mjs)
+- [Tilewright/src/adventure-horizon-levels.mjs](../Tilewright/src/adventure-horizon-levels.mjs)
 - [Tilewright/src/adventure-intel.mjs](../Tilewright/src/adventure-intel.mjs)
 - [Tilewright/src/adventure-journey.mjs](../Tilewright/src/adventure-journey.mjs)
 - [Tilewright/src/adventure-levels.mjs](../Tilewright/src/adventure-levels.mjs)
@@ -199,11 +207,14 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/fixtures/expedition-routes.json](../Tilewright/tests/fixtures/expedition-routes.json)
 - [Tilewright/tests/fixtures/guild-alternate-routes.json](../Tilewright/tests/fixtures/guild-alternate-routes.json)
 - [Tilewright/tests/fixtures/guild-routes.json](../Tilewright/tests/fixtures/guild-routes.json)
+- [Tilewright/tests/fixtures/horizon-routes.json](../Tilewright/tests/fixtures/horizon-routes.json)
 - [Tilewright/tests/fixtures/legacy-checkpoints.json](../Tilewright/tests/fixtures/legacy-checkpoints.json)
 - [Tilewright/tests/fixtures/nemesis-routes.json](../Tilewright/tests/fixtures/nemesis-routes.json)
 - [Tilewright/tests/fixtures/pre-guild-checkpoints.json](../Tilewright/tests/fixtures/pre-guild-checkpoints.json)
+- [Tilewright/tests/fixtures/pre-horizon-campaign.json](../Tilewright/tests/fixtures/pre-horizon-campaign.json)
 - [Tilewright/tests/fixtures/sluice-routes.json](../Tilewright/tests/fixtures/sluice-routes.json)
 - [Tilewright/tests/guild.test.mjs](../Tilewright/tests/guild.test.mjs)
+- [Tilewright/tests/horizon-runs.test.mjs](../Tilewright/tests/horizon-runs.test.mjs)
 - [Tilewright/tests/model.test.mjs](../Tilewright/tests/model.test.mjs)
 - [Tilewright/tests/operations.test.mjs](../Tilewright/tests/operations.test.mjs)
 - [Tilewright/tests/packaging.test.mjs](../Tilewright/tests/packaging.test.mjs)
