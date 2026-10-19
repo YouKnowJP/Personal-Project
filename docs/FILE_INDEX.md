@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **170 files** from Git-tracked paths and
+This catalog lists **172 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 127 |
+| [Tilewright](../Tilewright/) | 129 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>127 files</summary>
+<summary>129 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -127,6 +127,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/expedition-camp-mobile.png](../Tilewright/docs/expedition-camp-mobile.png)
 - [Tilewright/docs/expedition-hub.png](../Tilewright/docs/expedition-hub.png)
 - [Tilewright/docs/expedition.png](../Tilewright/docs/expedition.png)
+- [Tilewright/docs/feedback-desktop.png](../Tilewright/docs/feedback-desktop.png)
+- [Tilewright/docs/feedback-mobile.png](../Tilewright/docs/feedback-mobile.png)
 - [Tilewright/docs/focused-play-desktop.png](../Tilewright/docs/focused-play-desktop.png)
 - [Tilewright/docs/focused-play-mobile.png](../Tilewright/docs/focused-play-mobile.png)
 - [Tilewright/docs/guild-board.png](../Tilewright/docs/guild-board.png)
