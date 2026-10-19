@@ -77,7 +77,7 @@ live in `Switchback/tests/` and use `node:test` with `node:assert/strict`.
 Tilewright tests use the same built-in runner in `Tilewright/tests/`; follow
 its [QA checklist](Tilewright/docs/QA.md) when changing editor or game behavior.
 The optional `npm run test:browser` in Tilewright runs editor, story, hard-contract,
-and expedition browser suites. Expedition fixtures must use ordinary game actions;
+expedition, and sluice browser suites. Expedition fixtures must use ordinary game actions;
 retain checkpoint compatibility or deliberately revise the rules version.
 For UI changes, also exercise the affected controls in a browser and describe
 the browser, viewport/device, and observed result in the pull request. Follow

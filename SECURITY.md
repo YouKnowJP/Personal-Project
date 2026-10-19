@@ -50,7 +50,8 @@ Adventure progress is stored separately from map data, with bounded and
 validated personal bests. These browser-editable scores are not trusted
 competition records. A separate bounded movement profile contains only local game-action counts,
 transitions, and the last movement action. It can be reset independently and is
-never transmitted. Dialogue uses authored text nodes and one-time choices.
+never transmitted. Dialogue uses authored text nodes and one-time choices. Switches and coin
+trades are authored game rules, not executable imported map content.
 Seeded expeditions keep a bounded 220 KB replay checkpoint, separate learned
 counts, and a bounded local logbook. Backups validate rules and replay state
 before replacement; their fingerprint is not an anti-cheat guarantee.

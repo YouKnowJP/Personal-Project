@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **116 files** from Git-tracked paths and
+This catalog lists **128 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 73 |
+| [Tilewright](../Tilewright/) | 85 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>73 files</summary>
+<summary>85 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -104,6 +104,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/ROADMAP.md](../Tilewright/ROADMAP.md)
 - [Tilewright/adventure.css](../Tilewright/adventure.css)
 - [Tilewright/docs/ARCHITECTURE.md](../Tilewright/docs/ARCHITECTURE.md)
+- [Tilewright/docs/DESIGN_NOTES.md](../Tilewright/docs/DESIGN_NOTES.md)
 - [Tilewright/docs/EXPEDITIONS.md](../Tilewright/docs/EXPEDITIONS.md)
 - [Tilewright/docs/IDEAS.md](../Tilewright/docs/IDEAS.md)
 - [Tilewright/docs/MISSIONS.md](../Tilewright/docs/MISSIONS.md)
@@ -116,6 +117,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/expedition-hub.png](../Tilewright/docs/expedition-hub.png)
 - [Tilewright/docs/expedition.png](../Tilewright/docs/expedition.png)
 - [Tilewright/docs/resize-preview.png](../Tilewright/docs/resize-preview.png)
+- [Tilewright/docs/sluice-finale.png](../Tilewright/docs/sluice-finale.png)
+- [Tilewright/docs/sluice-mobile.png](../Tilewright/docs/sluice-mobile.png)
 - [Tilewright/docs/tilewright-mobile.png](../Tilewright/docs/tilewright-mobile.png)
 - [Tilewright/docs/tilewright.png](../Tilewright/docs/tilewright.png)
 - [Tilewright/docs/watcher-mobile.png](../Tilewright/docs/watcher-mobile.png)
@@ -130,17 +133,22 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/check.mjs](../Tilewright/scripts/check.mjs)
 - [Tilewright/scripts/contract-browser-checks.mjs](../Tilewright/scripts/contract-browser-checks.mjs)
 - [Tilewright/scripts/expedition-browser-checks.mjs](../Tilewright/scripts/expedition-browser-checks.mjs)
+- [Tilewright/scripts/sluice-browser-checks.mjs](../Tilewright/scripts/sluice-browser-checks.mjs)
 - [Tilewright/scripts/solve-expeditions.mjs](../Tilewright/scripts/solve-expeditions.mjs)
+- [Tilewright/scripts/solve-sluices.mjs](../Tilewright/scripts/solve-sluices.mjs)
 - [Tilewright/serve.mjs](../Tilewright/serve.mjs)
 - [Tilewright/src/adventure-brain.mjs](../Tilewright/src/adventure-brain.mjs)
 - [Tilewright/src/adventure-expedition-ui.mjs](../Tilewright/src/adventure-expedition-ui.mjs)
 - [Tilewright/src/adventure-generator.mjs](../Tilewright/src/adventure-generator.mjs)
+- [Tilewright/src/adventure-intel.mjs](../Tilewright/src/adventure-intel.mjs)
 - [Tilewright/src/adventure-journey.mjs](../Tilewright/src/adventure-journey.mjs)
 - [Tilewright/src/adventure-levels.mjs](../Tilewright/src/adventure-levels.mjs)
 - [Tilewright/src/adventure-logbook.mjs](../Tilewright/src/adventure-logbook.mjs)
+- [Tilewright/src/adventure-mechanisms.mjs](../Tilewright/src/adventure-mechanisms.mjs)
 - [Tilewright/src/adventure-perks.mjs](../Tilewright/src/adventure-perks.mjs)
 - [Tilewright/src/adventure-records.mjs](../Tilewright/src/adventure-records.mjs)
 - [Tilewright/src/adventure-render.mjs](../Tilewright/src/adventure-render.mjs)
+- [Tilewright/src/adventure-sluice-levels.mjs](../Tilewright/src/adventure-sluice-levels.mjs)
 - [Tilewright/src/adventure-sound.mjs](../Tilewright/src/adventure-sound.mjs)
 - [Tilewright/src/adventure-tactics.mjs](../Tilewright/src/adventure-tactics.mjs)
 - [Tilewright/src/adventure-ui.mjs](../Tilewright/src/adventure-ui.mjs)
@@ -155,6 +163,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/storage.mjs](../Tilewright/src/storage.mjs)
 - [Tilewright/src/viewport.mjs](../Tilewright/src/viewport.mjs)
 - [Tilewright/style.css](../Tilewright/style.css)
+- [Tilewright/tests/adventure-mechanisms.test.mjs](../Tilewright/tests/adventure-mechanisms.test.mjs)
 - [Tilewright/tests/adventure-records.test.mjs](../Tilewright/tests/adventure-records.test.mjs)
 - [Tilewright/tests/adventure-sound.test.mjs](../Tilewright/tests/adventure-sound.test.mjs)
 - [Tilewright/tests/adventure-tactics.test.mjs](../Tilewright/tests/adventure-tactics.test.mjs)
@@ -164,10 +173,13 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/fixtures/adventure-routes.json](../Tilewright/tests/fixtures/adventure-routes.json)
 - [Tilewright/tests/fixtures/contract-routes.json](../Tilewright/tests/fixtures/contract-routes.json)
 - [Tilewright/tests/fixtures/expedition-routes.json](../Tilewright/tests/fixtures/expedition-routes.json)
+- [Tilewright/tests/fixtures/legacy-checkpoints.json](../Tilewright/tests/fixtures/legacy-checkpoints.json)
 - [Tilewright/tests/fixtures/nemesis-routes.json](../Tilewright/tests/fixtures/nemesis-routes.json)
+- [Tilewright/tests/fixtures/sluice-routes.json](../Tilewright/tests/fixtures/sluice-routes.json)
 - [Tilewright/tests/model.test.mjs](../Tilewright/tests/model.test.mjs)
 - [Tilewright/tests/operations.test.mjs](../Tilewright/tests/operations.test.mjs)
 - [Tilewright/tests/packaging.test.mjs](../Tilewright/tests/packaging.test.mjs)
+- [Tilewright/tests/sluice-runs.test.mjs](../Tilewright/tests/sluice-runs.test.mjs)
 - [Tilewright/tests/storage.test.mjs](../Tilewright/tests/storage.test.mjs)
 - [Tilewright/tests/viewport.test.mjs](../Tilewright/tests/viewport.test.mjs)
 
