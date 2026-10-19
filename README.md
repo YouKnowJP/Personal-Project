@@ -12,7 +12,7 @@ in its own directory with its own README, setup instructions, and development no
 | Project | Description | Built with |
 | --- | --- | --- |
 | [Switchback](Switchback/README.md) | Browser Snake game with phase-switching puzzles, a campaign, and arcade modes. | JavaScript, HTML, CSS, Canvas |
-| [Tilewright](Tilewright/README.md) | Tile map editor and Lantern Trails puzzle adventures with eighteen story missions across six illustrated chapters, reversible sluice puzzles, interactive choices, branching seeded expeditions, daily trails, camp upgrades, adaptive hunters, and custom map play. | JavaScript, HTML, CSS, Canvas |
+| [Tilewright](Tilewright/README.md) | Tile map editor and Lantern Trails puzzle adventures with eighteen story missions across six illustrated chapters, reversible sluice puzzles, interactive choices, six Guild jobs with specialist tools and waystones, branching seeded expeditions, daily trails, camp upgrades, adaptive hunters, and custom map play. | JavaScript, HTML, CSS, Canvas |
 
 Open a project's README for its requirements, run instructions, tests, and roadmap.
 
