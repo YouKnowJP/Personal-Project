@@ -39,6 +39,9 @@ Open Switchback at [http://127.0.0.1:4173](http://127.0.0.1:4173), or Tilewright
 is required. Stop a server with Ctrl+C. Each project's README explains its
 controls, local storage, and static distribution.
 
+Tilewright's [Lantern Trails game](http://127.0.0.1:4174/#play) opens on a title
+screen with mode previews, a field guide, and options before a mission begins.
+
 ## Development and verification
 
 From the repository root, verify each project and create its static build:
