@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **152 files** from Git-tracked paths and
+This catalog lists **156 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 109 |
+| [Tilewright](../Tilewright/) | 113 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>109 files</summary>
+<summary>113 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -122,6 +122,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/expedition-camp-mobile.png](../Tilewright/docs/expedition-camp-mobile.png)
 - [Tilewright/docs/expedition-hub.png](../Tilewright/docs/expedition-hub.png)
 - [Tilewright/docs/expedition.png](../Tilewright/docs/expedition.png)
+- [Tilewright/docs/focused-play-desktop.png](../Tilewright/docs/focused-play-desktop.png)
+- [Tilewright/docs/focused-play-mobile.png](../Tilewright/docs/focused-play-mobile.png)
 - [Tilewright/docs/guild-board.png](../Tilewright/docs/guild-board.png)
 - [Tilewright/docs/guild-mobile.png](../Tilewright/docs/guild-mobile.png)
 - [Tilewright/docs/guild-tools-desktop.png](../Tilewright/docs/guild-tools-desktop.png)
@@ -144,12 +146,14 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/contract-browser-checks.mjs](../Tilewright/scripts/contract-browser-checks.mjs)
 - [Tilewright/scripts/expedition-browser-checks.mjs](../Tilewright/scripts/expedition-browser-checks.mjs)
 - [Tilewright/scripts/guild-browser-checks.mjs](../Tilewright/scripts/guild-browser-checks.mjs)
+- [Tilewright/scripts/layout-browser-checks.mjs](../Tilewright/scripts/layout-browser-checks.mjs)
 - [Tilewright/scripts/sluice-browser-checks.mjs](../Tilewright/scripts/sluice-browser-checks.mjs)
 - [Tilewright/scripts/solve-atlas.mjs](../Tilewright/scripts/solve-atlas.mjs)
 - [Tilewright/scripts/solve-expeditions.mjs](../Tilewright/scripts/solve-expeditions.mjs)
 - [Tilewright/scripts/solve-guild.mjs](../Tilewright/scripts/solve-guild.mjs)
 - [Tilewright/scripts/solve-sluices.mjs](../Tilewright/scripts/solve-sluices.mjs)
 - [Tilewright/scripts/story-driver.mjs](../Tilewright/scripts/story-driver.mjs)
+- [Tilewright/scripts/ui-driver.mjs](../Tilewright/scripts/ui-driver.mjs)
 - [Tilewright/serve.mjs](../Tilewright/serve.mjs)
 - [Tilewright/src/adventure-art.mjs](../Tilewright/src/adventure-art.mjs)
 - [Tilewright/src/adventure-atlas-levels.mjs](../Tilewright/src/adventure-atlas-levels.mjs)
