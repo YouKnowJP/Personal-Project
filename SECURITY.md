@@ -51,7 +51,10 @@ validated personal bests. These browser-editable scores are not trusted
 competition records. A separate bounded movement profile contains only local game-action counts,
 transitions, and the last movement action. It can be reset independently and is
 never transmitted. Dialogue uses authored text nodes and one-time choices.
-Custom expeditions use a validated map snapshot and never change editor saves. The local server binds to `127.0.0.1` and serves an explicit
+Seeded expeditions keep a bounded 220 KB replay checkpoint, separate learned
+counts, and a bounded local logbook. Backups validate rules and replay state
+before replacement; their fingerprint is not an anti-cheat guarantee.
+Custom map adventures use a validated snapshot and never change editor saves. The local server binds to `127.0.0.1` and serves an explicit
 public-file list.
 
 Use your own non-sensitive artwork, export JSON backups, and avoid personal or
