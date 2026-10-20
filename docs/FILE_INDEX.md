@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **216 files** from Git-tracked paths and
+This catalog lists **217 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 173 |
+| [Tilewright](../Tilewright/) | 174 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>173 files</summary>
+<summary>174 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -109,6 +109,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/EXPEDITIONS.md](../Tilewright/docs/EXPEDITIONS.md)
 - [Tilewright/docs/GUILD.md](../Tilewright/docs/GUILD.md)
 - [Tilewright/docs/HORIZONS.md](../Tilewright/docs/HORIZONS.md)
+- [Tilewright/docs/HOSTING.md](../Tilewright/docs/HOSTING.md)
 - [Tilewright/docs/IDEAS.md](../Tilewright/docs/IDEAS.md)
 - [Tilewright/docs/MISSIONS.md](../Tilewright/docs/MISSIONS.md)
 - [Tilewright/docs/PLAYER_GUIDE.md](../Tilewright/docs/PLAYER_GUIDE.md)

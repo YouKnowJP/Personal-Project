@@ -16,7 +16,20 @@ in its own directory with its own README, setup instructions, and development no
 
 Open a project's README for its requirements, run instructions, tests, and roadmap.
 
-## Get started
+## Play in your browser
+
+**[Play Lantern Trails](https://youknowjp.github.io/Personal-Project/#play)**
+
+Open the link on a computer, tablet, or phone. No installation, terminal,
+GitHub account, or repository download is required. The title screen introduces
+the game before you choose a mission. The complete game, Mapmaker, and Adventure
+Workshop are available on the website, including sharing player-made adventures.
+
+Progress and worlds stay in that browser on that device; export backups before
+clearing browser data. The website updates after changes to `main` pass all five
+Tilewright CI jobs. [Hosting and sharing details](Tilewright/docs/HOSTING.md).
+
+## Run locally for development
 
 Clone the repository and choose a project:
 
@@ -39,7 +52,7 @@ Open Switchback at [http://127.0.0.1:4173](http://127.0.0.1:4173), or Tilewright
 is required. Stop a server with Ctrl+C. Each project's README explains its
 controls, local storage, and static distribution.
 
-Tilewright's [Lantern Trails game](http://127.0.0.1:4174/#play) opens on a title
+Tilewright's [Lantern Trails game](https://youknowjp.github.io/Personal-Project/#play) opens on a title
 screen with mode previews, a field guide, and options before a mission begins.
 Its Adventure Journal tracks chapter mastery, specialist honors, expedition
 badges, and suggested goals for another run. The creator’s camp gives Mapmaker
