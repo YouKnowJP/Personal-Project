@@ -42,7 +42,9 @@ controls, local storage, and static distribution.
 Tilewright's [Lantern Trails game](http://127.0.0.1:4174/#play) opens on a title
 screen with mode previews, a field guide, and options before a mission begins.
 Its Adventure Journal tracks chapter mastery, specialist honors, expedition
-badges, and suggested goals for another run. The Adventure Workshop adds three
+badges, and suggested goals for another run. The creator’s camp gives Mapmaker
+and the Workshop a shared game presentation, focused canvas layouts, and an
+illustrated guide. The Adventure Workshop adds three
 featured worlds and tools to build puzzles, dialogue, patrols, and quests, then
 share playable adventures using files or codes.
 

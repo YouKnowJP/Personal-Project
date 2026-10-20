@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **205 files** from Git-tracked paths and
+This catalog lists **216 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 162 |
+| [Tilewright](../Tilewright/) | 173 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>162 files</summary>
+<summary>173 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -111,6 +111,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/HORIZONS.md](../Tilewright/docs/HORIZONS.md)
 - [Tilewright/docs/IDEAS.md](../Tilewright/docs/IDEAS.md)
 - [Tilewright/docs/MISSIONS.md](../Tilewright/docs/MISSIONS.md)
+- [Tilewright/docs/PLAYER_GUIDE.md](../Tilewright/docs/PLAYER_GUIDE.md)
 - [Tilewright/docs/QA.md](../Tilewright/docs/QA.md)
 - [Tilewright/docs/RESEARCH.md](../Tilewright/docs/RESEARCH.md)
 - [Tilewright/docs/SUBMISSION.md](../Tilewright/docs/SUBMISSION.md)
@@ -124,6 +125,12 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/aurora-mobile.png](../Tilewright/docs/aurora-mobile.png)
 - [Tilewright/docs/clockwork-desktop.png](../Tilewright/docs/clockwork-desktop.png)
 - [Tilewright/docs/clockwork-mobile.png](../Tilewright/docs/clockwork-mobile.png)
+- [Tilewright/docs/creator-camp.png](../Tilewright/docs/creator-camp.png)
+- [Tilewright/docs/creator-guide.png](../Tilewright/docs/creator-guide.png)
+- [Tilewright/docs/creator-mapmaker-1440.png](../Tilewright/docs/creator-mapmaker-1440.png)
+- [Tilewright/docs/creator-mapmaker-390.png](../Tilewright/docs/creator-mapmaker-390.png)
+- [Tilewright/docs/creator-studio-1440.png](../Tilewright/docs/creator-studio-1440.png)
+- [Tilewright/docs/creator-studio-390.png](../Tilewright/docs/creator-studio-390.png)
 - [Tilewright/docs/dialogue-mobile.png](../Tilewright/docs/dialogue-mobile.png)
 - [Tilewright/docs/echo-bridge-desktop.png](../Tilewright/docs/echo-bridge-desktop.png)
 - [Tilewright/docs/echo-bridge-mobile.png](../Tilewright/docs/echo-bridge-mobile.png)
@@ -167,6 +174,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/build.mjs](../Tilewright/scripts/build.mjs)
 - [Tilewright/scripts/check.mjs](../Tilewright/scripts/check.mjs)
 - [Tilewright/scripts/contract-browser-checks.mjs](../Tilewright/scripts/contract-browser-checks.mjs)
+- [Tilewright/scripts/creator-browser-checks.mjs](../Tilewright/scripts/creator-browser-checks.mjs)
 - [Tilewright/scripts/expedition-browser-checks.mjs](../Tilewright/scripts/expedition-browser-checks.mjs)
 - [Tilewright/scripts/front-browser-checks.mjs](../Tilewright/scripts/front-browser-checks.mjs)
 - [Tilewright/scripts/guild-browser-checks.mjs](../Tilewright/scripts/guild-browser-checks.mjs)
@@ -209,7 +217,9 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/adventure.mjs](../Tilewright/src/adventure.mjs)
 - [Tilewright/src/app.mjs](../Tilewright/src/app.mjs)
 - [Tilewright/src/bootstrap.mjs](../Tilewright/src/bootstrap.mjs)
+- [Tilewright/src/creator-guide.mjs](../Tilewright/src/creator-guide.mjs)
 - [Tilewright/src/icons.mjs](../Tilewright/src/icons.mjs)
+- [Tilewright/src/mapmaker-shell.mjs](../Tilewright/src/mapmaker-shell.mjs)
 - [Tilewright/src/model.mjs](../Tilewright/src/model.mjs)
 - [Tilewright/src/operations.mjs](../Tilewright/src/operations.mjs)
 - [Tilewright/src/render.mjs](../Tilewright/src/render.mjs)
@@ -224,6 +234,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/workshop-sharing.mjs](../Tilewright/src/workshop-sharing.mjs)
 - [Tilewright/src/workshop-ui.mjs](../Tilewright/src/workshop-ui.mjs)
 - [Tilewright/src/workshop-worlds.mjs](../Tilewright/src/workshop-worlds.mjs)
+- [Tilewright/studio.css](../Tilewright/studio.css)
 - [Tilewright/style.css](../Tilewright/style.css)
 - [Tilewright/tests/adventure-journal.test.mjs](../Tilewright/tests/adventure-journal.test.mjs)
 - [Tilewright/tests/adventure-mechanisms.test.mjs](../Tilewright/tests/adventure-mechanisms.test.mjs)
