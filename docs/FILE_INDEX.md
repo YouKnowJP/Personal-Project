@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **226 files** from Git-tracked paths and
+This catalog lists **233 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 183 |
+| [Tilewright](../Tilewright/) | 190 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>183 files</summary>
+<summary>190 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -113,6 +113,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/IDEAS.md](../Tilewright/docs/IDEAS.md)
 - [Tilewright/docs/MISSIONS.md](../Tilewright/docs/MISSIONS.md)
 - [Tilewright/docs/PLAYER_GUIDE.md](../Tilewright/docs/PLAYER_GUIDE.md)
+- [Tilewright/docs/PUZZLE_LAB.md](../Tilewright/docs/PUZZLE_LAB.md)
 - [Tilewright/docs/QA.md](../Tilewright/docs/QA.md)
 - [Tilewright/docs/RESEARCH.md](../Tilewright/docs/RESEARCH.md)
 - [Tilewright/docs/SUBMISSION.md](../Tilewright/docs/SUBMISSION.md)
@@ -152,6 +153,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/guild-tools-desktop.png](../Tilewright/docs/guild-tools-desktop.png)
 - [Tilewright/docs/horizon-chapters.png](../Tilewright/docs/horizon-chapters.png)
 - [Tilewright/docs/lighthouse-desktop.png](../Tilewright/docs/lighthouse-desktop.png)
+- [Tilewright/docs/puzzle-lab.png](../Tilewright/docs/puzzle-lab.png)
+- [Tilewright/docs/remix-tools.png](../Tilewright/docs/remix-tools.png)
 - [Tilewright/docs/resize-preview.png](../Tilewright/docs/resize-preview.png)
 - [Tilewright/docs/sluice-finale.png](../Tilewright/docs/sluice-finale.png)
 - [Tilewright/docs/sluice-mobile.png](../Tilewright/docs/sluice-mobile.png)
@@ -184,6 +187,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/guild-browser-checks.mjs](../Tilewright/scripts/guild-browser-checks.mjs)
 - [Tilewright/scripts/horizon-browser-checks.mjs](../Tilewright/scripts/horizon-browser-checks.mjs)
 - [Tilewright/scripts/journal-browser-checks.mjs](../Tilewright/scripts/journal-browser-checks.mjs)
+- [Tilewright/scripts/lab-browser-checks.mjs](../Tilewright/scripts/lab-browser-checks.mjs)
 - [Tilewright/scripts/layout-browser-checks.mjs](../Tilewright/scripts/layout-browser-checks.mjs)
 - [Tilewright/scripts/sluice-browser-checks.mjs](../Tilewright/scripts/sluice-browser-checks.mjs)
 - [Tilewright/scripts/solve-atlas.mjs](../Tilewright/scripts/solve-atlas.mjs)
@@ -236,6 +240,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/workshop-art.mjs](../Tilewright/src/workshop-art.mjs)
 - [Tilewright/src/workshop-clears.mjs](../Tilewright/src/workshop-clears.mjs)
 - [Tilewright/src/workshop-designer.mjs](../Tilewright/src/workshop-designer.mjs)
+- [Tilewright/src/workshop-lab-clears.mjs](../Tilewright/src/workshop-lab-clears.mjs)
+- [Tilewright/src/workshop-lab.mjs](../Tilewright/src/workshop-lab.mjs)
 - [Tilewright/src/workshop-library.mjs](../Tilewright/src/workshop-library.mjs)
 - [Tilewright/src/workshop-model.mjs](../Tilewright/src/workshop-model.mjs)
 - [Tilewright/src/workshop-sharing.mjs](../Tilewright/src/workshop-sharing.mjs)
@@ -277,6 +283,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/storage.test.mjs](../Tilewright/tests/storage.test.mjs)
 - [Tilewright/tests/training.test.mjs](../Tilewright/tests/training.test.mjs)
 - [Tilewright/tests/viewport.test.mjs](../Tilewright/tests/viewport.test.mjs)
+- [Tilewright/tests/workshop-lab.test.mjs](../Tilewright/tests/workshop-lab.test.mjs)
 - [Tilewright/tests/workshop.test.mjs](../Tilewright/tests/workshop.test.mjs)
 - [Tilewright/training.css](../Tilewright/training.css)
 - [Tilewright/workshop.css](../Tilewright/workshop.css)
