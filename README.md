@@ -28,8 +28,10 @@ Start with **Training camp** for hands-on lessons in playing and creating a
 world. The bare website address also opens the game's title screen.
 **Workshop → Puzzle Lab** adds six more playable/remixable rooms, whole-world
 rotate/mirror tools, unscored practice from the cursor, and creative design sparks.
-**Workshop → Storybooks** connects those worlds into longer journeys with
-optional chapter challenges. Bind up to six worlds into your own book, write
+**Workshop → Storybooks** now includes **eight new original levels** in
+**The Rainmaker’s Letters** and **The Observatory of Borrowed Stars**, plus
+three journeys through the Puzzle Lab. Read keeper stories, explore alternate
+routes, and choose optional chapter challenges. Bind up to six worlds into your own book, write
 its story, and share the whole adventure in one file. [Storybooks guide](Tilewright/docs/STORYBOOKS.md).
 
 Progress and worlds stay in that browser on that device; export backups before
