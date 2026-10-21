@@ -24,6 +24,9 @@ Open the link on a computer, tablet, or phone. No installation, terminal,
 GitHub account, or repository download is required. The title screen introduces
 the game before you choose a mission. The complete game, Mapmaker, and Adventure
 Workshop are available on the website, including sharing player-made adventures.
+**The Trailhouse** adds twelve keeper commissions, six village restorations,
+seven keepsakes, and an unlockable original festival adventure.
+[Trailhouse guide](Tilewright/docs/TRAILHOUSE.md).
 Start with **Training camp** for hands-on lessons in playing and creating a
 world. The bare website address also opens the game's title screen.
 **Workshop → Puzzle Lab** adds six more playable/remixable rooms, whole-world
