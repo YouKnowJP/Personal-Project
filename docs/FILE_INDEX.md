@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **264 files** from Git-tracked paths and
+This catalog lists **265 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 221 |
+| [Tilewright](../Tilewright/) | 222 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>221 files</summary>
+<summary>222 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -196,6 +196,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/front-browser-checks.mjs](../Tilewright/scripts/front-browser-checks.mjs)
 - [Tilewright/scripts/guild-browser-checks.mjs](../Tilewright/scripts/guild-browser-checks.mjs)
 - [Tilewright/scripts/horizon-browser-checks.mjs](../Tilewright/scripts/horizon-browser-checks.mjs)
+- [Tilewright/scripts/interface-browser-checks.mjs](../Tilewright/scripts/interface-browser-checks.mjs)
 - [Tilewright/scripts/journal-browser-checks.mjs](../Tilewright/scripts/journal-browser-checks.mjs)
 - [Tilewright/scripts/lab-browser-checks.mjs](../Tilewright/scripts/lab-browser-checks.mjs)
 - [Tilewright/scripts/layout-browser-checks.mjs](../Tilewright/scripts/layout-browser-checks.mjs)
