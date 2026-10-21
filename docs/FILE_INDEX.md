@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **257 files** from Git-tracked paths and
+This catalog lists **264 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 214 |
+| [Tilewright](../Tilewright/) | 221 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>214 files</summary>
+<summary>221 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -103,8 +103,10 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/README.md](../Tilewright/README.md)
 - [Tilewright/ROADMAP.md](../Tilewright/ROADMAP.md)
 - [Tilewright/adventure.css](../Tilewright/adventure.css)
+- [Tilewright/controls.css](../Tilewright/controls.css)
 - [Tilewright/docs/ARCHITECTURE.md](../Tilewright/docs/ARCHITECTURE.md)
 - [Tilewright/docs/ATLAS.md](../Tilewright/docs/ATLAS.md)
+- [Tilewright/docs/CONTROLS.md](../Tilewright/docs/CONTROLS.md)
 - [Tilewright/docs/DESIGN_NOTES.md](../Tilewright/docs/DESIGN_NOTES.md)
 - [Tilewright/docs/EXPEDITIONS.md](../Tilewright/docs/EXPEDITIONS.md)
 - [Tilewright/docs/GUILD.md](../Tilewright/docs/GUILD.md)
@@ -188,6 +190,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/build.mjs](../Tilewright/scripts/build.mjs)
 - [Tilewright/scripts/check.mjs](../Tilewright/scripts/check.mjs)
 - [Tilewright/scripts/contract-browser-checks.mjs](../Tilewright/scripts/contract-browser-checks.mjs)
+- [Tilewright/scripts/controls-browser-checks.mjs](../Tilewright/scripts/controls-browser-checks.mjs)
 - [Tilewright/scripts/creator-browser-checks.mjs](../Tilewright/scripts/creator-browser-checks.mjs)
 - [Tilewright/scripts/expedition-browser-checks.mjs](../Tilewright/scripts/expedition-browser-checks.mjs)
 - [Tilewright/scripts/front-browser-checks.mjs](../Tilewright/scripts/front-browser-checks.mjs)
@@ -212,11 +215,13 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/adventure-art.mjs](../Tilewright/src/adventure-art.mjs)
 - [Tilewright/src/adventure-atlas-levels.mjs](../Tilewright/src/adventure-atlas-levels.mjs)
 - [Tilewright/src/adventure-brain.mjs](../Tilewright/src/adventure-brain.mjs)
+- [Tilewright/src/adventure-controls.mjs](../Tilewright/src/adventure-controls.mjs)
 - [Tilewright/src/adventure-expedition-ui.mjs](../Tilewright/src/adventure-expedition-ui.mjs)
 - [Tilewright/src/adventure-front.mjs](../Tilewright/src/adventure-front.mjs)
 - [Tilewright/src/adventure-generator.mjs](../Tilewright/src/adventure-generator.mjs)
 - [Tilewright/src/adventure-guild.mjs](../Tilewright/src/adventure-guild.mjs)
 - [Tilewright/src/adventure-horizon-levels.mjs](../Tilewright/src/adventure-horizon-levels.mjs)
+- [Tilewright/src/adventure-input.mjs](../Tilewright/src/adventure-input.mjs)
 - [Tilewright/src/adventure-intel.mjs](../Tilewright/src/adventure-intel.mjs)
 - [Tilewright/src/adventure-journal.mjs](../Tilewright/src/adventure-journal.mjs)
 - [Tilewright/src/adventure-journey.mjs](../Tilewright/src/adventure-journey.mjs)
@@ -268,6 +273,8 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/storybook.css](../Tilewright/storybook.css)
 - [Tilewright/studio.css](../Tilewright/studio.css)
 - [Tilewright/style.css](../Tilewright/style.css)
+- [Tilewright/tests/adventure-controls.test.mjs](../Tilewright/tests/adventure-controls.test.mjs)
+- [Tilewright/tests/adventure-input.test.mjs](../Tilewright/tests/adventure-input.test.mjs)
 - [Tilewright/tests/adventure-journal.test.mjs](../Tilewright/tests/adventure-journal.test.mjs)
 - [Tilewright/tests/adventure-mechanisms.test.mjs](../Tilewright/tests/adventure-mechanisms.test.mjs)
 - [Tilewright/tests/adventure-preferences.test.mjs](../Tilewright/tests/adventure-preferences.test.mjs)

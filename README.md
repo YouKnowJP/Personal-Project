@@ -27,6 +27,9 @@ Workshop are available on the website, including sharing player-made adventures.
 **The Trailhouse** adds twelve keeper commissions, six village restorations,
 seven keepsakes, and an unlockable original festival adventure.
 [Trailhouse guide](Tilewright/docs/TRAILHOUSE.md).
+Choose **Options → Controls** for direction-pad, swipe, tap-to-step, keyboard,
+or optional controller input. Left/right placement and larger buttons suit
+phones and tablets in portrait or landscape. [Controls guide](Tilewright/docs/CONTROLS.md).
 Start with **Training camp** for hands-on lessons in playing and creating a
 world. The bare website address also opens the game's title screen.
 **Workshop → Puzzle Lab** adds six more playable/remixable rooms, whole-world
