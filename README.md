@@ -24,6 +24,8 @@ Open the link on a computer, tablet, or phone. No installation, terminal,
 GitHub account, or repository download is required. The title screen introduces
 the game before you choose a mission. The complete game, Mapmaker, and Adventure
 Workshop are available on the website, including sharing player-made adventures.
+Start with **Training camp** for hands-on lessons in playing and creating a
+world. The bare website address also opens the game's title screen.
 
 Progress and worlds stay in that browser on that device; export backups before
 clearing browser data. The website updates after changes to `main` pass all five
