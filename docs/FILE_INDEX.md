@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **278 files** from Git-tracked paths and
+This catalog lists **281 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 235 |
+| [Tilewright](../Tilewright/) | 238 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>235 files</summary>
+<summary>238 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -180,6 +180,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/workshop-designer.png](../Tilewright/docs/workshop-designer.png)
 - [Tilewright/docs/workshop-mobile.png](../Tilewright/docs/workshop-mobile.png)
 - [Tilewright/docs/workshop-shelf.png](../Tilewright/docs/workshop-shelf.png)
+- [Tilewright/dropdowns.css](../Tilewright/dropdowns.css)
 - [Tilewright/examples/willowbend.json](../Tilewright/examples/willowbend.json)
 - [Tilewright/front.css](../Tilewright/front.css)
 - [Tilewright/game-theme.css](../Tilewright/game-theme.css)
@@ -195,6 +196,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/contract-browser-checks.mjs](../Tilewright/scripts/contract-browser-checks.mjs)
 - [Tilewright/scripts/controls-browser-checks.mjs](../Tilewright/scripts/controls-browser-checks.mjs)
 - [Tilewright/scripts/creator-browser-checks.mjs](../Tilewright/scripts/creator-browser-checks.mjs)
+- [Tilewright/scripts/dropdown-browser-checks.mjs](../Tilewright/scripts/dropdown-browser-checks.mjs)
 - [Tilewright/scripts/expedition-browser-checks.mjs](../Tilewright/scripts/expedition-browser-checks.mjs)
 - [Tilewright/scripts/front-browser-checks.mjs](../Tilewright/scripts/front-browser-checks.mjs)
 - [Tilewright/scripts/guild-browser-checks.mjs](../Tilewright/scripts/guild-browser-checks.mjs)
@@ -248,6 +250,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/app.mjs](../Tilewright/src/app.mjs)
 - [Tilewright/src/bootstrap.mjs](../Tilewright/src/bootstrap.mjs)
 - [Tilewright/src/creator-guide.mjs](../Tilewright/src/creator-guide.mjs)
+- [Tilewright/src/game-dropdowns.mjs](../Tilewright/src/game-dropdowns.mjs)
 - [Tilewright/src/icons.mjs](../Tilewright/src/icons.mjs)
 - [Tilewright/src/mapmaker-shell.mjs](../Tilewright/src/mapmaker-shell.mjs)
 - [Tilewright/src/model.mjs](../Tilewright/src/model.mjs)
