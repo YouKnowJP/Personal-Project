@@ -2,7 +2,7 @@
 
 Browse the [repository guide](../README.md) for project context.
 
-This catalog lists **265 files** from Git-tracked paths and
+This catalog lists **271 files** from Git-tracked paths and
 unignored local additions. Git internals, ignored local state, and
 Finder metadata are omitted. Refresh from the enclosing Personal PR
 folder with `python3 tools/refresh_indexes.py`.
@@ -15,7 +15,7 @@ folder with `python3 tools/refresh_indexes.py`.
 | [.github](../.github/) | 7 |
 | [docs](../docs/) | 1 |
 | [Switchback](../Switchback/) | 27 |
-| [Tilewright](../Tilewright/) | 222 |
+| [Tilewright](../Tilewright/) | 228 |
 
 ## Root files
 
@@ -95,7 +95,7 @@ folder with `python3 tools/refresh_indexes.py`.
 ## Tilewright
 
 <details>
-<summary>222 files</summary>
+<summary>228 files</summary>
 
 - [Tilewright/.nvmrc](../Tilewright/.nvmrc)
 - [Tilewright/CHANGELOG.md](../Tilewright/CHANGELOG.md)
@@ -128,6 +128,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/docs/adventure-mobile.png](../Tilewright/docs/adventure-mobile.png)
 - [Tilewright/docs/adventure-modes.png](../Tilewright/docs/adventure-modes.png)
 - [Tilewright/docs/adventure.png](../Tilewright/docs/adventure.png)
+- [Tilewright/docs/afterhours-lab.png](../Tilewright/docs/afterhours-lab.png)
 - [Tilewright/docs/atlas-chapters.png](../Tilewright/docs/atlas-chapters.png)
 - [Tilewright/docs/aurora-finale.png](../Tilewright/docs/aurora-finale.png)
 - [Tilewright/docs/aurora-mobile.png](../Tilewright/docs/aurora-mobile.png)
@@ -200,6 +201,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/scripts/journal-browser-checks.mjs](../Tilewright/scripts/journal-browser-checks.mjs)
 - [Tilewright/scripts/lab-browser-checks.mjs](../Tilewright/scripts/lab-browser-checks.mjs)
 - [Tilewright/scripts/layout-browser-checks.mjs](../Tilewright/scripts/layout-browser-checks.mjs)
+- [Tilewright/scripts/mastery-browser-checks.mjs](../Tilewright/scripts/mastery-browser-checks.mjs)
 - [Tilewright/scripts/sluice-browser-checks.mjs](../Tilewright/scripts/sluice-browser-checks.mjs)
 - [Tilewright/scripts/solve-atlas.mjs](../Tilewright/scripts/solve-atlas.mjs)
 - [Tilewright/scripts/solve-expeditions.mjs](../Tilewright/scripts/solve-expeditions.mjs)
@@ -261,12 +263,14 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/src/training-model.mjs](../Tilewright/src/training-model.mjs)
 - [Tilewright/src/training-ui.mjs](../Tilewright/src/training-ui.mjs)
 - [Tilewright/src/viewport.mjs](../Tilewright/src/viewport.mjs)
+- [Tilewright/src/workshop-afterhours.mjs](../Tilewright/src/workshop-afterhours.mjs)
 - [Tilewright/src/workshop-art.mjs](../Tilewright/src/workshop-art.mjs)
 - [Tilewright/src/workshop-clears.mjs](../Tilewright/src/workshop-clears.mjs)
 - [Tilewright/src/workshop-designer.mjs](../Tilewright/src/workshop-designer.mjs)
 - [Tilewright/src/workshop-lab-clears.mjs](../Tilewright/src/workshop-lab-clears.mjs)
 - [Tilewright/src/workshop-lab.mjs](../Tilewright/src/workshop-lab.mjs)
 - [Tilewright/src/workshop-library.mjs](../Tilewright/src/workshop-library.mjs)
+- [Tilewright/src/workshop-mastery.mjs](../Tilewright/src/workshop-mastery.mjs)
 - [Tilewright/src/workshop-model.mjs](../Tilewright/src/workshop-model.mjs)
 - [Tilewright/src/workshop-sharing.mjs](../Tilewright/src/workshop-sharing.mjs)
 - [Tilewright/src/workshop-ui.mjs](../Tilewright/src/workshop-ui.mjs)
@@ -291,6 +295,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/fixtures/atlas-routes.json](../Tilewright/tests/fixtures/atlas-routes.json)
 - [Tilewright/tests/fixtures/contract-routes.json](../Tilewright/tests/fixtures/contract-routes.json)
 - [Tilewright/tests/fixtures/expedition-routes.json](../Tilewright/tests/fixtures/expedition-routes.json)
+- [Tilewright/tests/fixtures/foundry-alternate.json](../Tilewright/tests/fixtures/foundry-alternate.json)
 - [Tilewright/tests/fixtures/guild-alternate-routes.json](../Tilewright/tests/fixtures/guild-alternate-routes.json)
 - [Tilewright/tests/fixtures/guild-routes.json](../Tilewright/tests/fixtures/guild-routes.json)
 - [Tilewright/tests/fixtures/horizon-routes.json](../Tilewright/tests/fixtures/horizon-routes.json)
@@ -315,6 +320,7 @@ folder with `python3 tools/refresh_indexes.py`.
 - [Tilewright/tests/training.test.mjs](../Tilewright/tests/training.test.mjs)
 - [Tilewright/tests/viewport.test.mjs](../Tilewright/tests/viewport.test.mjs)
 - [Tilewright/tests/workshop-lab.test.mjs](../Tilewright/tests/workshop-lab.test.mjs)
+- [Tilewright/tests/workshop-mastery.test.mjs](../Tilewright/tests/workshop-mastery.test.mjs)
 - [Tilewright/tests/workshop.test.mjs](../Tilewright/tests/workshop.test.mjs)
 - [Tilewright/trailhouse.css](../Tilewright/trailhouse.css)
 - [Tilewright/training.css](../Tilewright/training.css)
