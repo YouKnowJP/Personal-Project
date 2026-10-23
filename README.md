@@ -12,7 +12,7 @@ in its own directory with its own README, setup instructions, and development no
 | Project | Description | Built with |
 | --- | --- | --- |
 | [Switchback](Switchback/README.md) | Browser Snake game with phase-switching puzzles, a campaign, and arcade modes. | JavaScript, HTML, CSS, Canvas |
-| [Tilewright](Tilewright/README.md) | Tile map editor and Lantern Trails puzzle adventures with twenty-four story missions, eight Guild jobs, three specialists including a lantern double, interactive choices, waystones, branching expeditions, adaptive hunters, and an Adventure Workshop for creating, playtesting, and sharing maps and stories. | JavaScript, HTML, CSS, Canvas |
+| [Tilewright](Tilewright/README.md) | Tile map editor and Lantern Trails puzzle adventures with twenty-four story missions, eight Guild jobs, specialist Expedition builds, branching Storybooks, a named adaptive rival, route reviews, and an Adventure Workshop for creating, discovering, and sharing maps and stories. | JavaScript, HTML, CSS, Canvas |
 
 Open a project's README for its requirements, run instructions, tests, and roadmap.
 
@@ -34,8 +34,9 @@ Start with **Training camp** for hands-on lessons in playing and creating a
 world. The bare website address also opens the game's title screen.
 **Workshop → Puzzle Lab** adds six more playable/remixable rooms, whole-world
 rotate/mirror tools, unscored practice from the cursor, and creative design sparks.
-**Workshop → Storybooks** now includes **eight new original levels** in
-**The Rainmaker’s Letters** and **The Observatory of Borrowed Stars**, plus
+**Workshop → Storybooks** includes **thirteen original levels**, including the
+two roads and endings of **The Keeper’s Promise**, alongside **The Rainmaker’s
+Letters** and **The Observatory of Borrowed Stars**, plus
 three journeys through the Puzzle Lab. Read keeper stories, explore alternate
 routes, and choose optional chapter challenges. Bind up to six worlds into your own book, write
 its story, and share the whole adventure in one file. [Storybooks guide](Tilewright/docs/STORYBOOKS.md).
