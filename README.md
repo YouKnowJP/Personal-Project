@@ -30,6 +30,11 @@ seven keepsakes, and an unlockable original festival adventure.
 Choose **Options → Controls** for direction-pad, swipe, tap-to-step, keyboard,
 or optional controller input. Left/right placement and larger buttons suit
 phones and tablets in portrait or landscape. [Controls guide](Tilewright/docs/CONTROLS.md).
+Choose **Accessibility** for larger reading, high contrast, numbered and lettered
+map cues, closer map views, and surroundings described in words. **The Welcome
+Lanterns** adds six peaceful chapters with no enemies or timed hazards, also
+available individually through Trailboard's Peaceful filter.
+[Accessibility and peaceful-adventure guide](Tilewright/docs/ACCESSIBILITY.md).
 Start with **Training camp** for hands-on lessons in playing and creating a
 world. The bare website address also opens the game's title screen.
 **Workshop → Puzzle Lab** adds six more playable/remixable rooms, whole-world
